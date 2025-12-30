@@ -10,6 +10,8 @@ message size is stored AES-128/CBC encrypted at the end of the image (using the 
 as the message). The user supplies the password to both encrypt and decrypt this metadata (seed, size),
 while the message itself is not encrypted (but rather scattered randomly).
 
+The GUI is made with PySide6, a Python library for QT 6.
+
 
 ![Diagram of a hidden message (with a hidden message inside!)](hidden_message.png)
 
